@@ -32,9 +32,9 @@ include("header.php");
         <label for="pago">Elije el metodo de pago</label>
         <select name="pago" id="pago" required>
             <option value="-1">Elije opcion</option>
-            <option value="1">Tarjeta de credito</option>
-            <option value="2">Bizum</option>
-            <option value="3">PayPal</option>
+            <option value="Tarjeta de credito">Tarjeta de credito</option>
+            <option value="Bizum">Bizum</option>
+            <option value="PayPal">PayPal</option>
         </select>
     </div>
     <div class="form-group">
